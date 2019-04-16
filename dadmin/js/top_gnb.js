@@ -1,0 +1,26 @@
+var tGnb = '';
+tGnb += '<dl id="topgnb">';
+tGnb += '			<dt><a href="/main.html"><img src="/images/common/biglogo.jpg" alt="big4 games" /></a></dt>';
+tGnb += '			<dd>';
+tGnb += '				<div class="tuti">';
+tGnb += '					<a href="#"><img src="/images/common/tutil_1.gif" alt="Home" /></a>';
+tGnb += '					<a href="#"><img src="/images/common/tutil_2.gif" alt="ContactUs" /></a>';
+tGnb += '				</div>';
+tGnb += '				<ul id="topmenu">';
+tGnb += '					<li id="gnb01" class="menu1"><a href="/company/company.html">Company</a>';
+tGnb += '						<ul class="submenu1"><li>none</li></ul>';
+tGnb += '					</li>';
+tGnb += '					<li id="gnb02" class="menu2"><a href="/games/game_about1.html">Games</a>';
+tGnb += '						<ul class="submenu2"><li>none</li></ul>';
+tGnb += '					</li>';
+tGnb += '					<li id="gnb03" class="menu3"><a href="/support/support.html">Support</a>';
+tGnb += '						<ul class="submenu2"><li>none</li></ul>';
+tGnb += '					</li>';
+tGnb += '					<li id="gnb04" class="menu4"><a href="/recruit/recruit.html">Recruit</a>';
+tGnb += '						<ul class="submenu2"><li>none</li></ul>';
+tGnb += '					</li>';
+tGnb += '				</ul>';
+tGnb += '			</dd>';
+tGnb += '		</dl>';
+
+document.write(tGnb);

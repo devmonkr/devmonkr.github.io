@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>DEVMON</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!-- Latest compiled and minified CSS BS 3.0. RC1-->
+	<link href="./style/bootstrap.min.css" rel="stylesheet">
+	<link href="./style/bootstrap-multiselect.css" rel="stylesheet">
+	<link href="./style/style.css" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+	<![endif]-->
+	 <!-- load google analytics -->
+	     <script type="text/javascript" src="./script/googleAnalytics.js"></script>
+		     <!-- end load google analytics -->
+</head>
+<!-- /HEAD-->
+<body data-spy="scroll" data-target=".navbar">
+<main id="containerbox">
+	<nav id="topnav" class="navbar navbar-fixed-top navbar-default" role="navigation">
+		<div class="container" style="max-width:980px;">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/"><img src="./images/logo.jpg" alt='DEVMON' /></a>
+				</div>
+
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<!--//<li class="active"><a href="#top-section">Home</a></li> //-->
+						<li><a href="work.html">Works</a></li>
+						<li><a href="career.html">Career</a></li>
+						<li class="active"><a href="contact_map.html">Contact Us</a></li>
+						<!--//<li class="blog"><a href="#"><img src="./images/tm_blog.gif" alt="" /></a></li>//-->
+					</ul>
+				</div>
+		</div>
+	</nav>
+
+	<!-- HEADER -->
+	<header id="sub-section" class="sub-top3">
+		<div class="container">
+			<div class="row">
+				<div class="text-center color-white">
+					<h1>THINK IT, <span class="hid-br"></span>GRAB IT</h1>
+					<p>상상할 수 있으면 현실이 될 수 있습니다.</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- / HEADER -->
+
+	<section id="sub3-section1">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-lg-12">
+					<h1>CONTACT US</h1>
+				</div>
+				<div class="col-sm-12" style="margin-bottom:30px;">
+					<ul class="col-sm-12 contact-selector">
+						<li class="col-wd-5 text-center">
+							<a href="contact_map.html" title="찾아오시는길"><img src="./images/contact-tab1-off.gif" alt="찾아오시는길" /><span class="hid">찾아오시는 길</span></a>
+						</li>
+						<li class="col-wd-5 col-last text-center">
+							<a href="contact_news.html" title="News"><img src="./images/contact-tab2-on.gif" alt="News" /><span class="hid">News</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>News</h1>
+				</div>
+			</div>
+			<form>
+			<div class="row">
+				<div class="searchbox col-lg-6">
+					<div class="select-group">
+						<select class="input-sm">
+							<option>제목</option>
+							<option>내용</option>
+							<option>제목+내용</option>
+						</select>
+					</div>
+					<div class="input-group">
+						<input type="text" class="form-control input-search">
+						<span class="input-group-btn">
+							<button class="btn btn-search" type="button">검색</button>
+						</span>
+					</div><!-- /input-group -->
+					<div class="check-group">
+						<span class="t">뉴스종류</span>
+						<select id="multi-select-news" multiple="multiple">
+							<option value="공지사항">공지사항</option>
+							<option value="사내소식">사내소식</option>
+							<option value="채용정보">채용정보</option>
+							<option value="프로젝트">프로젝트</option>
+							<option value="언론소개">언론소개</option>
+						</select>
+						<button id="multi-select-news-values" class="btn btn-primary">확인</button>
+					</div>
+				</div><!-- /.col-lg-6 -->
+			</div>
+			</form>
+
+			<div class="row news-board">
+				<table class="table table-hover">
+					<tbody>
+						<tr class="success">
+							<td class="text-center thum-td"><span class="thum-box"></span></td>
+							<td>
+								<span class="gubun">[공지사항]</span>
+								<p class="ti"><a href="contact_news_view.html">게시판 타이틀 타이틀 타이틀</a></p>
+								<div class="tx">
+									<span class="date">2014/12/12</span>
+									2014년 연말연시를 맞아 데브몬은 12월 25일 부터 내년 1월 1일까지 연말전체 휴가를 갖습니다.
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="text-center thum-td"><span class="thum-box"><img src="./images/@thum_1.gif" alt="thumnail" /></span></td>
+							<td>
+								<span class="gubun">[채용정보]</span>
+								<p class="ti"><a href="contact_news_view.html">[상시]게시판 타이틀 타이틀 타이틀</a></p>
+								<div class="tx">
+									<span class="date">2014/12/12</span>
+									2014년 연말연시를 맞아 데브몬은 12월 25일 부터 내년 1월 1일까지 연말전체 휴가를 갖습니다.
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="text-center thum-td"><span class="thum-box"><img src="./images/@thum_2.gif" alt="thumnail" /></span></td>
+							<td>
+								<span class="gubun">[채용정보]</span>
+								<p class="ti">[상시]게시판 타이틀 타이틀 타이틀</p>
+								<div class="tx">
+									<span class="date">2014/12/12</span>
+									2014년 연말연시를 맞아 데브몬은 12월 25일 부터 내년 1월 1일까지 연말전체 휴가를 갖습니다.
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="text-center thum-td"><span class="thum-box"><img src="./images/@thum_1.gif" alt="thumnail" /></span></td>
+							<td>
+								<span class="gubun">[채용정보]</span>
+								<p class="ti">[상시]게시판 타이틀 타이틀 타이틀</p>
+								<div class="tx">
+									<span class="date">2014/12/12</span>
+									2014년 연말연시를 맞아 데브몬은 12월 25일 부터 내년 1월 1일까지 연말전체 휴가를 갖습니다.
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="text-center thum-td"><span class="thum-box"><img src="./images/@thum_2.gif" alt="thumnail" /></span></td>
+							<td>
+								<span class="gubun">[채용정보]</span>
+								<p class="ti">[상시]게시판 타이틀 타이틀 타이틀</p>
+								<div class="tx">
+									<span class="date">2014/12/12</span>
+									2014년 연말연시를 맞아 데브몬은 12월 25일 부터 내년 1월 1일까지 연말전체 휴가를 갖습니다.
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="news-over-view text-center">
+					<a href="#">10개 더 보기</a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<div class="push"></div>
+</main>
+
+<!-- FOOTER -->
+<footer id="foot-sec">
+	<div class="container">
+			<div class="row">
+				<div class="col-xs-3 text-left">
+					<img src="./images/foo_logo.gif" alt="DEVMON" />
+				</div>
+				<div class="col-xs-9 text-left">
+					<p>COPYTIRIGHT. DEVMON CO., LTD. ALL RIGHTS RESERVED.<br />주식회사 데브몬 | 대표이사 이신희  | 서울시 영등포구 양산로23길 4 202 (당산동 3가 21번지 청호빌딩2층) | 070-8233-1510</p>
+				</div>
+			</div>
+	</div><!-- / CONTAINER-->
+</footer>
+<!-- / FOOTER -->
+
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="./script/jquery.js" type="text/javascript"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="./script/bootstrap.min.js" type="text/javascript"></script>
+<script src="./script/bootstrap-multiselect.js" type="text/javascript"></script>
+<!-- PAGE CUSTOM SCROLLER
+<script src="./script/jquery.nicescroll.min.js" type="text/javascript"></script>-->
+<script src="./script/jquery.parallax.js" type="text/javascript" ></script>
+<script src="./script/jquery.localscroll.js" type="text/javascript" ></script>
+<script src="./script/jquery.scrollTo.min.js" type="text/javascript" ></script>
+<script src="./script/script.js" type="text/javascript" ></script>
+
+<script>
+	$(document).ready(function() {
+			$('#multi-select-news').multiselect({
+				includeSelectAllOption: true
+			  //,      	enableFiltering: true,
+			});
+			$('#multi-select-news-values').on('click', function() {
+					var values = [];
+
+					$('option:selected', $('#multi-select-news')).each(function() {
+							values.push($(this).val());
+					});
+					//alert(values);
+			})
+	});
+	$(function() {
+		$( "#tabs" ).tabs();
+	});
+//hide menu after click on mobile
+	jQuery('.navbar .nav > li > a').click(function(){
+		jQuery('.navbar-collapse.navbar-ex1-collapse.in').removeClass('in').addClass('collapse').css('height', '0');
+
+	});
+
+	$(function() {
+		cont_h = $(window).height();
+		cont_w = $(window).width();
+		if (cont_w < '768')
+		{
+		}else{
+			$('#top-section').css('minHeight',cont_h);
+		}
+	});
+</script>
+<!-- saved from url http://www.bootstraptor.com ==========================
+Don't remove this attribution!
+This template build on Bootstrap 3 Developer  Kit v.2.0. by @Bootstraptor
+Read usage license on http://www.bootstraptor.com
+@BOOTSTRAPTOR TEMPLATE SUPORT:
+Support & commercial usage license contact: dogserega@gmail.com
+Bootstraptor 3.0. - templates - themes  - skins
+ usage licenses here http://www.bootstraptor.com <==
+
+Uprgader 2.3.* => 3.0. service Bootstrap 3.0. online update service free http://bootstrap3.kissr.com/
+Update Bootstrap 2.3.* to Bootstrap 3.0. online http://bootstrap3.kissr.com/
+follow for templates updates & new releases on Twitter.com/Bootstraptor
+##########################################################################-->
+
+</body>
+</html>
